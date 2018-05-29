@@ -1192,8 +1192,14 @@ namespace MineStudio
             DateTime t2 = Convert.ToDateTime(txtCurrentTimeCounts.Text);
             TimeSpan ts = t1.Subtract(t2);
             var tss = int.Parse(ts.ToString(@"ss"));
+
+            Form openForm = Application.OpenForms["frmDataFlash"];
             
-            if (tss>=3)
+            if(openForm != null)
+            {
+                
+            }
+            else if (tss >= 3)
             {
                 MessageBox.Show("Connect VMU, then hit OK!", "VMU DISCONNECTED!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 btnReconnect.PerformClick();

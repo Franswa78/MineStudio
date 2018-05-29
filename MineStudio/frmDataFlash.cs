@@ -56,6 +56,7 @@ namespace MineStudio
             //groupBoxMessage.Visible = false;
             //toolStripLabelRestart.Visible = true;
             this.listView1.Items.Clear();
+            this.listView1.CheckBoxes = true;
             setProgressBarParms(ProgressBarStyle.Blocks, true);
             setEnable(true);
 

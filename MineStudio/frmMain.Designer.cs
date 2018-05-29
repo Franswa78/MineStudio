@@ -45,6 +45,7 @@
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtCurrentTimeCounts = new System.Windows.Forms.TextBox();
             this.toolStripBottomCounts = new System.Windows.Forms.ToolStrip();
             this.versionNumberLabel = new System.Windows.Forms.ToolStripLabel();
             this.connectionStatusLabel = new System.Windows.Forms.ToolStripLabel();
@@ -127,7 +128,6 @@
             this.timerSystem = new System.Windows.Forms.Timer(this.components);
             this.backgroundWorkerDallas = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorkerCOMMS = new System.ComponentModel.BackgroundWorker();
-            this.txtCurrentTimeCounts = new System.Windows.Forms.TextBox();
             this.toolStripTopMainForm.SuspendLayout();
             this.toolStripBottomStatus.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -340,6 +340,14 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "COUNTS";
+            // 
+            // txtCurrentTimeCounts
+            // 
+            this.txtCurrentTimeCounts.Location = new System.Drawing.Point(176, 186);
+            this.txtCurrentTimeCounts.Name = "txtCurrentTimeCounts";
+            this.txtCurrentTimeCounts.Size = new System.Drawing.Size(133, 20);
+            this.txtCurrentTimeCounts.TabIndex = 16;
+            this.txtCurrentTimeCounts.Visible = false;
             // 
             // toolStripBottomCounts
             // 
@@ -1184,13 +1192,6 @@
             this.backgroundWorkerCOMMS.WorkerReportsProgress = true;
             this.backgroundWorkerCOMMS.WorkerSupportsCancellation = true;
             this.backgroundWorkerCOMMS.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorkerCOMMS_DoWork);
-            // 
-            // txtCurrentTimeCounts
-            // 
-            this.txtCurrentTimeCounts.Location = new System.Drawing.Point(176, 186);
-            this.txtCurrentTimeCounts.Name = "txtCurrentTimeCounts";
-            this.txtCurrentTimeCounts.Size = new System.Drawing.Size(133, 20);
-            this.txtCurrentTimeCounts.TabIndex = 16;
             // 
             // frmMain
             // 
