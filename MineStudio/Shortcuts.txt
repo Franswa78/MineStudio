@@ -1,0 +1,72 @@
+﻿The following shortcuts are available for GJS Studio:
+
+- HOME PAGE
+===========
+The following shortcuts open other pages for Programming,
+Testing, Instructions (text document), and Shortcuts 
+(text document):
+Ctrl + P = opens the Programming page
+Ctrl + M = opens the Memory Flash page
+Ctrl + A = opens the ReadMe text document with App instructions
+Ctrl + S = opens the Shortcuts text document showing available 
+shortcuts
+Ctrl + X = closes the GJS Studio app.
+
+The following shortcuts are used for testing purposes on the
+Home Page:
+
+DALLAS Group
+------------
+Ctrl + H = reads the Header
+Ctrl + Z = reads the Buzzer
+
+TIME Group
+Ctrl + T = sets the VMU time (after setting the time, it will
+automatically read the VMU time).  If it does not read the VMU
+time after setting it, use the following:
+Ctrl + R = reads the VMU time
+
+COUNTS Group
+------------
+NB!	WHILE TESTING THE VMU's, YOU HAVE TO DISCONNECT AND 
+	RECONNECT THE VMU EVERYTIME YOU SWITCH TO ANOTHER VMU!
+WHY? 
+	IT MANUALLY CLOSES THE COM PORT AND MANUALLY OPENS IT!
+
+Ctrl + C = reconnects a VMU.  Use this function if no VMU is
+connected to the computer, OR when you want to start testing a
+new VMU.
+Ctrl + D = disconnects a VMU.  Use this before you remove every
+VMU when testing!
+Ctrl + V = refreshes the VMU readings.
+Ctrl + N = turns on the 4 x LED's.
+Ctrl + F = turns off the 4 x LED's.
+Ctrl + G = searches for the gps coördinates.
+
+LIMITS Group
+------------
+Ctrl + W = writes new settings to the VMU.  Currently disabled.
+Ctrl + A = reads the VMU settings.  Currently disabled.
+
+__________________________________________________________________
+
+
+- PROGRAM DEVICE PAGE
+=====================
+Ctrl + P = programs the connected unit.
+Ctrl + A = cancels the current programming.
+Ctrl + C = enables changes to be made to the programming settings.
+Ctrl + S = saves the new programming settings.
+Ctrl + X = closes the Programming Device page
+
+__________________________________________________________________
+
+
+- DATA FLASH PAGE
+=================
+Ctrl + W = writes data flash.
+Ctrl + R = reads the data flash.
+Ctrl + D = downloads data blocks.
+Ctrl + C = clears the data flash.
+Ctrl + A = cancel any action in progress.
+Ctrl + X = closes the Data Flash page.

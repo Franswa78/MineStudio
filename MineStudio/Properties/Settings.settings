@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MineStudio.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CurrentProgrammer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AVRISP_MKII</Value>
+    </Setting>
+    <Setting Name="AVRISP_MKII" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Stk500</Value>
+    </Setting>
+    <Setting Name="CurrentDevice" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Raptor</Value>
+    </Setting>
+    <Setting Name="Programmers" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AVRISP_MKII</Value>
+    </Setting>
+    <Setting Name="Devices" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RAPTOR,MINIDAL,MS6,SQSPEEDO_V2,SQSPEEDO_V1,LEACH,PHAROS_TX,PHAROS_RX,ULOGGER,XPORTLAN,RTTEMP,</Value>
+    </Setting>
+    <Setting Name="Verify" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RAPTOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Raptor,ATMega128.hex,RAPTOR_EEP2.hex,RAPTORV5_3P.hex,D0AF,CF,ATMEGA128</Value>
+    </Setting>
+    <Setting Name="MINIDAL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MinDal,MINIDAL16_V1_5_BOOT.hex,MiniDal16_EEP.hex,,D22D,CF,ATMEGA16</Value>
+    </Setting>
+    <Setting Name="MS6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MS6,BootLoad.hex,,RTMTEMP_V1_7D.hex,D02D,CF,ATMEGA128</Value>
+    </Setting>
+    <Setting Name="SQSPEEDO_V2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQSpeedo,ATMega128.hex,SqSpeedo EEPROM.hex,TACHOVMU_V1_4F.hex,D0AF,CF,ATMEGA128</Value>
+    </Setting>
+    <Setting Name="SQSPEEDO_V1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQSpeedo,ATMega128.hex,SqSpeedo EEPROM.hex,TACHOVMU_V1_2V.hex,D02D,CF,ATMEGA128</Value>
+    </Setting>
+    <Setting Name="LEACH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Leach,ATMega128.hex,,LEACHPRG3_6O.hex,D02F,CF,ATMEGA128</Value>
+    </Setting>
+    <Setting Name="PHAROS_TX" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pharos\\TX,proj.hex,,,D02D,CF,ATMEGA8</Value>
+    </Setting>
+    <Setting Name="PHAROS_RX" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pharos\\RX,PROJ_RRQ3.hex,gjs_eeprom.hex,,D12D,CF,ATMEGA8</Value>
+    </Setting>
+    <Setting Name="ULOGGER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">uLoggerUSB,,,ULOGGERUSB.hex,D0AF,CF,ATMEGA32</Value>
+    </Setting>
+    <Setting Name="XPORTLAN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">XPortLAN,,,XPortCom.hex,D0AD,CF,ATMEGA128</Value>
+    </Setting>
+    <Setting Name="RTTEMP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RT Temp,BootLoad.hex,,RTMTemp_V1_5E,D02D.hex,CF,ATMEGA64</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
